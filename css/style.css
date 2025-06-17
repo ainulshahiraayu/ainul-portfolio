@@ -72,18 +72,22 @@ section {
 
 .about {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  background-color: #f3f3f3;
+  background-color: #fef6ff;
+  padding: 3rem 1rem;
   border-radius: 12px;
-  padding: 2rem;
+  text-align: center;
 }
 
 .about img {
-  width: 200px;
-  border-radius: 50%;
-  border: 4px solid #6a11cb;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px; /* Comel rounded */
+  border: 4px solid #dda0dd; /* Soft purple border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
 }
 
 .about-info h2 {
@@ -92,7 +96,8 @@ section {
 }
 
 .about-info p {
-  margin: 0.2rem 0;
+  margin: 0.4rem 0;
+  font-size: 1rem;
 }
 
 .portfolio {

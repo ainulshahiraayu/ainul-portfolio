@@ -104,19 +104,25 @@ section {
 }
 
 .info-list {
-  text-align: right;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .info-list p {
   margin: 0.3rem 0;
+  width: 100%;
+  text-align: left;
+  padding-left: 2em;
 }
 
 .about-desc {
+  line-height: 1.6;
+  max-width: 600px;
   text-align: justify;
   text-indent: 2em;
-  line-height: 1.8;
 }
 
 .portfolio {

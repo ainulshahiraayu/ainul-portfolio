@@ -91,6 +91,15 @@ header {
   text-align: center;
   padding: 1rem 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.mobile-nav.active {
+  display: flex;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .mobile-nav a {
@@ -251,10 +260,6 @@ body.dark-mode .mobile-nav a:hover {
 
   .hamburger {
     display: block;
-  }
-
-  .mobile-nav.show {
-    display: flex;
   }
 
   .about-wrapper {

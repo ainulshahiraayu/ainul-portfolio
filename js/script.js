@@ -21,3 +21,21 @@ if (exploreBtn) {
     portfolioSection.scrollIntoView({ behavior: "smooth" });
   });
 }
+
+// HAMBURGER MENU TOGGLE
+const hamburger = document.getElementById("hamburger");
+const mobileNav = document.querySelector(".mobile-nav");
+
+if (hamburger && mobileNav) {
+  hamburger.addEventListener("click", () => {
+    mobileNav.classList.toggle("show");
+  });
+
+  // Tutup menu bila klik link
+  const navLinks = mobileNav.querySelectorAll("a");
+  navLinks.forEach((link) =>
+    link.addEventListener("click", () => {
+      mobileNav.classList.remove("show");
+    })
+  );
+}

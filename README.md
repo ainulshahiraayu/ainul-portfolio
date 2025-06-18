@@ -19,31 +19,30 @@ This project showcases my skills in frontend development using HTML, CSS, and Ja
 ## 📁 Project Structure
 
 ```
-project-folder/
-│
-├── index.html # Main HTML file (homepage)
+ainul-portfolio/
 ├── css/
-│ └── style.css # All custom styles
-├── js/
-│ └── script.js # JavaScript functions (dark mode toggle, hamburger menu)
+│   └── style.css
 ├── img/
-│ ├── profile.JPG # About Me image
-│ ├── modelling.png # Portfolio image - 3D Modelling
-│ ├── photography.png # Portfolio image - Photography
-│ ├── UIdesign.png # Portfolio image - UI Design
-│ ├── artdesign.png # Portfolio image - Art & Design
-│ ├── desktop.png # Screenshot for desktop view (README)
-│ └── mobile.png # Screenshot for mobile view (README)
-└── README.md # Project documentation (this file)
+│   ├── UIdesign.png
+│   ├── artdesign.png
+│   ├── modelling.png
+│   ├── photography.png
+│   ├── previewdekstop.png
+│   ├── previewmobile.jpg
+│   └── profile.JPG
+├── js/
+│   └── script.js
+├── index.html
+└── README.md
 ```
 ---
 
 ## 🚀 How to Use
 
-1. Download or clone the repository.
-2. Open the `index.html` file in any modern browser (Chrome, Firefox, Edge, Safari).
-3. Browse the website and explore each section: Home, About Me, Portfolio, and Contact.
-4. Click the **"Dark Mode"** button to switch between light and dark themes.
+- **Desktop**: Use the navigation bar at the top to jump to different sections — Home, About Me, Portfolio, and Contact.
+- **Mobile**: Tap the hamburger menu (☰) to reveal navigation links. Tap a link to navigate and automatically close the menu.
+- **Dark Mode**: Click the “Dark Mode” button in the header to switch between light and dark themes.
+> 💡 To view the website locally, just open `index.html` in any web browser.
 
 ---
 

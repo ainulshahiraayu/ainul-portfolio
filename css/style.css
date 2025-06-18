@@ -2,12 +2,12 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fdfdfd;
+  background-color: #f4f4f4;
   color: #333;
 }
 
 header {
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   color: white;
   padding: 1.5rem 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -165,7 +165,7 @@ h2 {
 
 /* --- FOOTER --- */
 footer {
-  background-color: #242582;
+  background-color: #1e3c72;
   color: white;
   text-align: center;
   padding: 1rem 0;

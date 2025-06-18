@@ -127,6 +127,9 @@ section {
 
 .portfolio {
   text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f8f8ff;
+  border-radius: 12px;
 }
 
 .portfolio h2 {
@@ -135,13 +138,19 @@ section {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
   margin-top: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-grid img {
   width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 8px;
   transition: transform 0.3s ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);

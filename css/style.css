@@ -20,26 +20,34 @@ body {
 header {
   background: linear-gradient(to right, var(--primary), var(--accent));
   color: white;
-  padding: 1.5rem;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  flex-wrap: nowrap;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo h1 {
   font-size: 1.8rem;
   margin: 0;
+  white-space: nowrap;
+}
+
+nav {
+  flex-grow: 1;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   padding: 0;
   margin: 0;
+  flex-wrap: nowrap;
 }
 
 .nav-links a {
@@ -47,6 +55,7 @@ header {
   color: white;
   font-weight: bold;
   transition: color 0.3s;
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -62,6 +71,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
+  white-space: nowrap;
 }
 
 #toggle-mode:hover {
@@ -191,14 +201,13 @@ body.dark-mode .contact {
 /* RESPONSIVE */
 @media (max-width: 768px) {
   header {
-    grid-template-columns: 1fr;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .nav-links {
-    justify-content: center;
+    flex-direction: column;
     margin-top: 1rem;
-    flex-wrap: wrap;
   }
 
   #toggle-mode {

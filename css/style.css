@@ -96,7 +96,7 @@ header {
   transition: opacity 0.3s ease;
 }
 
-.mobile-nav.active {
+.mobile-nav.show {
   display: flex;
   opacity: 1;
   pointer-events: auto;

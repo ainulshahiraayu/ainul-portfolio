@@ -6,22 +6,14 @@ This project showcases my skills in frontend development using HTML, CSS, and Ja
 
 ---
 
-## 🌟 Features
+## 🚀 Features
 
-- 🎨 Responsive modern UI layout
-- 📱 Mobile-friendly hamburger menu navigation
-- 🌗 Toggle between Dark Mode and Light Mode
-- 🎯 Smooth scroll to sections
-- 🧠 Clean section structure: Home, About Me, Portfolio, Contact
-
----
-
-## 🧩 Technologies Used
-
-- **HTML5** – Semantic structure of the website
-- **CSS3** – Layout, responsiveness, and styling with custom variables
-- **JavaScript** – DOM interaction, toggles, scroll behavior
-
+- Responsive design (Desktop & Mobile)
+- Dark Mode toggle
+- Hamburger menu for mobile navigation
+- Smooth scroll to sections
+- Organized content: Home, About Me, Portfolio, Contact
+  
 ---
 
 ## 📁 File Structure
@@ -41,11 +33,29 @@ This project showcases my skills in frontend development using HTML, CSS, and Ja
 
 ## 🚀 How to Use
 
-1. **Clone this repository** or **download the ZIP**.
-2. Open `index.html` in any modern browser.
-3. Click on the hamburger menu (☰) on mobile to navigate.
-4. Toggle **Dark Mode** with the button at the top.
-5. Use the **Explore More** button to jump to the Portfolio section.
+1. Download or clone the repository.
+2. Open the `index.html` file in any modern browser (Chrome, Firefox, Edge, Safari).
+3. Browse the website and explore each section: Home, About Me, Portfolio, and Contact.
+4. Click the **"Dark Mode"** button to switch between light and dark themes.
+
+---
+
+### 🔍 Device-Specific Instructions
+
+- **Desktop View**  
+  Navigation links (Home, About Me, Portfolio, Contact) appear in a horizontal bar at the top header.
+
+- **Mobile View**  
+  Tap the **☰ hamburger icon** to open the mobile navigation. Tap a link to navigate and auto-close the menu.
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Responsive design with CSS Grid & Flexbox
 
 ---
 

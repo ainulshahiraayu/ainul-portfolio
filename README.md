@@ -51,8 +51,12 @@ This project showcases my skills in frontend development using HTML, CSS, and Ja
 
 ## 🖼️ Preview
 
-> *(Insert screenshot or GIF of your website here if you want)*  
-> *(Optional – boleh upload screenshot dalam repo dan linkkan)*
+### 💻 Desktop View
+![Desktop Preview](img/previewdesktop.png)
+
+### 📱 Mobile View
+![Mobile Preview](img/previewmobile.JPG)
+
 
 ---
 

@@ -68,7 +68,7 @@ header h1 {
   color: white;
 }
 
-.container {
+section {
   padding: 3rem 1.5rem;
   max-width: 1100px;
   margin: auto;
@@ -100,39 +100,37 @@ h2 {
   transform: scale(1.05);
 }
 
-/* ==== ABOUT SECTION ==== */
+/* ABOUT ME LAYOUT */
 .about-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
-.polaroid {
-  width: 300px;
+.about-wrapper img.polaroid {
+  width: 250px;
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .about-info {
-  text-align: left;
   max-width: 500px;
+  text-align: left;
 }
 
-/* ==== PORTFOLIO ==== */
+/* PORTFOLIO LAYOUT */
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
-  justify-items: center;
 }
 
 .portfolio-item img {
   width: 100%;
-  max-width: 350px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s;
@@ -148,17 +146,6 @@ h2 {
   color: #666;
 }
 
-/* ==== CONTACT ==== */
-.contact a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
-
-/* ==== FOOTER ==== */
 footer {
   background-color: var(--footer-bg);
   color: var(--footer-text);
@@ -167,7 +154,7 @@ footer {
   margin-top: 3rem;
 }
 
-/* ==== DARK MODE ==== */
+/* DARK MODE STYLING */
 body.dark-mode {
   background-color: #0f172a;
   color: #e2e8f0;

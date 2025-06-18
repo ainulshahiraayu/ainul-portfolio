@@ -16,18 +16,7 @@ This project showcases my skills in frontend development using HTML, CSS, and Ja
   
 ---
 
-## 📁 File Structure
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-├── img/
-│ ├── profile.JPG
-│ ├── modelling.png
-│ ├── photography.png
-│ ├── UIdesign.png
-│ └── artdesign.png
+<pre><code>## 📁 Project Structure <code> project-folder/ │ ├── index.html # Main HTML file (homepage) ├── css/ │ └── style.css # All custom styles ├── js/ │ └── script.js # JavaScript functions (dark mode toggle, hamburger menu) ├── img/ │ ├── profile.JPG # About Me image │ ├── modelling.png # Portfolio image - 3D Modelling │ ├── photography.png # Portfolio image - Photography │ ├── UIdesign.png # Portfolio image - UI Design │ ├── artdesign.png # Portfolio image - Art & Design │ ├── desktop.png # Screenshot for desktop view (README) │ └── mobile.png # Screenshot for mobile view (README) └── README.md # Project documentation (this file) </code> </code></pre>
 
 ---
 

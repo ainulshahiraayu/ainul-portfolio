@@ -63,13 +63,13 @@ This project showcases my skills in frontend development using HTML, CSS, and Ja
 
 ### 💻 Desktop View
 
--The navigation menu appears inline in the header for quick access to all sections. The layout is wide, clean, and designed for larger screens.
+- The navigation menu appears inline in the header for quick access to all sections. The layout is wide, clean, and designed for larger screens.
 
 ![Desktop Preview](img/previewdekstop.png)
 
 ### 📱 Mobile View
 
--The navigation is hidden behind a hamburger menu for a more compact interface. The design is fully responsive and optimized for smaller screens.
+- The navigation is hidden behind a hamburger menu for a more compact interface. The design is fully responsive and optimized for smaller screens.
 
 ![Mobile Preview](img/previewmobile.jpg)
 

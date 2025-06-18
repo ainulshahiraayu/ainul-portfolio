@@ -20,34 +20,26 @@ body {
 header {
   background: linear-gradient(to right, var(--primary), var(--accent));
   color: white;
-  padding: 1.5rem 2rem;
-  display: flex;
-  justify-content: space-between;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 1rem;
-  flex-wrap: nowrap;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo h1 {
   font-size: 1.8rem;
   margin: 0;
-  white-space: nowrap;
-}
-
-nav {
-  flex-grow: 1;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 1.5rem;
   padding: 0;
   margin: 0;
-  flex-wrap: nowrap;
 }
 
 .nav-links a {
@@ -55,7 +47,6 @@ nav {
   color: white;
   font-weight: bold;
   transition: color 0.3s;
-  white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -71,10 +62,46 @@ nav {
   font-weight: bold;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
-  white-space: nowrap;
 }
 
 #toggle-mode:hover {
+  background-color: var(--highlight);
+  color: white;
+}
+
+/* HAMBURGER MENU (Mobile Navigation) */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-nav a {
+  padding: 0.8rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.mobile-nav a:hover {
   background-color: var(--highlight);
   color: white;
 }
@@ -198,20 +225,36 @@ body.dark-mode .contact {
   background-color: #1f2937;
 }
 
+body.dark-mode .mobile-nav {
+  background: linear-gradient(to right, #1f2937, #4c1d95);
+}
+
+body.dark-mode .mobile-nav a {
+  color: #d1d5db;
+}
+
+body.dark-mode .mobile-nav a:hover {
+  background-color: #10b981;
+  color: white;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: auto auto;
+    text-align: center;
   }
 
   .nav-links {
-    flex-direction: column;
-    margin-top: 1rem;
+    display: none;
   }
 
-  #toggle-mode {
-    margin-top: 1rem;
+  .hamburger {
+    display: block;
+  }
+
+  .mobile-nav.show {
+    display: flex;
   }
 
   .about-wrapper {

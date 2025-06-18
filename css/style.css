@@ -26,6 +26,7 @@ header {
   align-items: center;
   gap: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* ✅ Tambah supaya .mobile-nav boleh position relatif */
 }
 
 .logo h1 {
@@ -94,6 +95,7 @@ header {
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
+  z-index: 1000; /* ✅ Tambah supaya berada atas konten lain */
 }
 
 .mobile-nav.show {

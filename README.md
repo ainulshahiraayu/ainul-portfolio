@@ -52,7 +52,7 @@ This project showcases my skills in frontend development using HTML, CSS, and Ja
 ## 🖼️ Preview
 
 ### 💻 Desktop View
-![Desktop Preview](img/previewdesktop.png)
+![Desktop Preview](img/previewdekstop.png)
 
 ### 📱 Mobile View
 ![Mobile Preview](img/previewmobile.jpg)

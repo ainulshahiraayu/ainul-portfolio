@@ -88,7 +88,6 @@ ainul-portfolio/
 **Ainul Shahira Ayu Binti Noor Azli**  
 Bachelor of Information Technology (Informatics Media)  
 Email: [shahiraayuwork@gmail.com](mailto:shahiraayuwork@gmail.com)  
-GitHub: [ainulshahiraayu](https://github.com/ainulshahiraayu)
 
 ---
 

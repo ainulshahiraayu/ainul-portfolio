@@ -39,6 +39,7 @@ ainul-portfolio/
 
 ## 🚀 How to Use
 
+- **Website Link** : https://ainulshahiraayu.github.io/ainul-portfolio/
 - **Desktop**: Use the navigation bar at the top to jump to different sections — Home, About Me, Portfolio, and Contact.
 - **Mobile**: Tap the hamburger menu (☰) to reveal navigation links. Tap a link to navigate and automatically close the menu.
 - **Dark Mode**: Click the “Dark Mode” button in the header to switch between light and dark themes.
